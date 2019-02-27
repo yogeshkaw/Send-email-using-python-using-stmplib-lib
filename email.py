@@ -3,7 +3,7 @@ import pandas as pd
 
 df = pd.read_csv("file:///Users/yogesh/Downloads/TechVita1.0_FinalSheet1.csv")#location of file in the form of csv
 
-mail = smtplib.SMTP('smtp.gmail.com', 587)//if you are using gmail account
+mail = smtplib.SMTP('smtp.gmail.com', 587)#if you are using gmail account
 mail.ehlo() #helo can also be used
 mail.starttls()
 mail.login("unknown@gmail.com","Password")# type your email and password
